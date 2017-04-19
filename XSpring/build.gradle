@@ -1,0 +1,19 @@
+apply plugin: "java"
+apply plugin: "maven"
+apply plugin: "eclipse"
+
+dependencies {
+
+	// https://mvnrepository.com/artifact/org.springframework/spring-core
+	compile group: 'org.springframework', name: 'spring-core', version: '4.2.6.RELEASE'
+	// https://mvnrepository.com/artifact/org.springframework/spring-context
+	compile group: 'org.springframework', name: 'spring-context', version: '4.2.6.RELEASE'
+	// https://mvnrepository.com/artifact/org.slf4j/slf4j-api
+	compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
+
+}
+
+repositories {
+   //mavenCentral()
+   jcenter()
+}
