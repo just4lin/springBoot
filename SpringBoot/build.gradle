@@ -3,9 +3,10 @@ apply plugin: "maven"
 apply plugin: "eclipse"
 
 dependencies {
-// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot
-compile group: 'org.springframework.boot', name: 'spring-boot', version: '1.5.2.RELEASE'
-
+	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot
+	compile group: 'org.springframework.boot', name: 'spring-boot', version: '1.5.2.RELEASE'
+	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web
+	compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '1.5.2.RELEASE'
 }
 
 repositories {
